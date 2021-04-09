@@ -13,6 +13,8 @@ struct DetailScene: View {
     @EnvironmentObject var store: MemoStore
     @EnvironmentObject var formatter: DateFormatter
     
+    @State private var showEditSheet = false
+    
     var body: some View {
         VStack {
             ScrollView {
@@ -29,6 +31,20 @@ struct DetailScene: View {
                         .font(.footnote)
                         .foregroundColor(Color(UIColor.secondaryLabel))
                 }
+            }
+            
+            HStack {
+                Button(action: {
+                    self.showEditSheet.toggle()
+                }, label: {
+                    Image(systemName: "square.and.pencil")
+                })
+                .padding()
+                .sheet(isPresented: $showEditSheet, content: {
+                    ComposeScene(showComposer: self.$showEditSheet, memo: self.memo)
+                        .environmentObject(self.store)
+                        .environmentObject(KeyboardObserver())
+                })
             }
         }
         .navigationBarTitle("메모 보기")
