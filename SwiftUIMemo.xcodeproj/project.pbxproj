@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA0F1C3C2620B6D600E3EC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C3B2620B6D600E3EC02 /* AppDelegate.swift */; };
 		BA0F1C3E2620B6D600E3EC02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C3D2620B6D600E3EC02 /* SceneDelegate.swift */; };
-		BA0F1C402620B6D600E3EC02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C3F2620B6D600E3EC02 /* ContentView.swift */; };
+		BA0F1C402620B6D600E3EC02 /* MemoListScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C3F2620B6D600E3EC02 /* MemoListScene.swift */; };
 		BA0F1C432620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C412620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld */; };
 		BA0F1C452620B6D700E3EC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0F1C442620B6D700E3EC02 /* Assets.xcassets */; };
 		BA0F1C482620B6D700E3EC02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0F1C472620B6D700E3EC02 /* Preview Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		BA0F1C382620B6D600E3EC02 /* SwiftUIMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0F1C3B2620B6D600E3EC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA0F1C3D2620B6D600E3EC02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA0F1C3F2620B6D600E3EC02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA0F1C3F2620B6D600E3EC02 /* MemoListScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListScene.swift; sourceTree = "<group>"; };
 		BA0F1C422620B6D600E3EC02 /* SwiftUIMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIMemo.xcdatamodel; sourceTree = "<group>"; };
 		BA0F1C442620B6D700E3EC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0F1C472620B6D700E3EC02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				BA0F1C3B2620B6D600E3EC02 /* AppDelegate.swift */,
 				BA0F1C3D2620B6D600E3EC02 /* SceneDelegate.swift */,
-				BA0F1C3F2620B6D600E3EC02 /* ContentView.swift */,
+				BA0F1C3F2620B6D600E3EC02 /* MemoListScene.swift */,
 				BA0F1C442620B6D700E3EC02 /* Assets.xcassets */,
 				BA0F1C492620B6D700E3EC02 /* LaunchScreen.storyboard */,
 				BA0F1C4C2620B6D700E3EC02 /* Info.plist */,
@@ -151,7 +151,7 @@
 				BA0F1C3C2620B6D600E3EC02 /* AppDelegate.swift in Sources */,
 				BA0F1C432620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				BA0F1C3E2620B6D600E3EC02 /* SceneDelegate.swift in Sources */,
-				BA0F1C402620B6D600E3EC02 /* ContentView.swift in Sources */,
+				BA0F1C402620B6D600E3EC02 /* MemoListScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
