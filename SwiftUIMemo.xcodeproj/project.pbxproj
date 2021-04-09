@@ -20,6 +20,7 @@
 		BA0F1C612620BF8200E3EC02 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C602620BF8200E3EC02 /* MemoCell.swift */; };
 		BA0F1C662620C10500E3EC02 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C652620C10500E3EC02 /* ComposeScene.swift */; };
 		BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C682620C98300E3EC02 /* TextView.swift */; };
+		BA0F1C6D2620CB6300E3EC02 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BA0F1C602620BF8200E3EC02 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		BA0F1C652620C10500E3EC02 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 		BA0F1C682620C98300E3EC02 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		BA0F1C3A2620B6D600E3EC02 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA0F1C6B2620CB4800E3EC02 /* Shared */,
 				BA0F1C632620C09600E3EC02 /* Scene */,
 				BA0F1C5B2620BD3E00E3EC02 /* Extension */,
 				BA0F1C542620B8FF00E3EC02 /* Model */,
@@ -126,6 +129,14 @@
 				BA0F1C652620C10500E3EC02 /* ComposeScene.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		BA0F1C6B2620CB4800E3EC02 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			files = (
 				BA0F1C3C2620B6D600E3EC02 /* AppDelegate.swift in Sources */,
 				BA0F1C592620BA0B00E3EC02 /* MemoStore.swift in Sources */,
+				BA0F1C6D2620CB6300E3EC02 /* KeyboardObserver.swift in Sources */,
 				BA0F1C432620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				BA0F1C5D2620BD6100E3EC02 /* DateFormatter+Memo.swift in Sources */,
 				BA0F1C3E2620B6D600E3EC02 /* SceneDelegate.swift in Sources */,
