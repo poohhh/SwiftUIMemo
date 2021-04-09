@@ -22,6 +22,7 @@
 		BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C682620C98300E3EC02 /* TextView.swift */; };
 		BA0F1C6D2620CB6300E3EC02 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */; };
 		BA0F1C722620D7C500E3EC02 /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C712620D7C500E3EC02 /* DetailScene.swift */; };
+		BA0F1C7A2620E10800E3EC02 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C792620E10800E3EC02 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BA0F1C682620C98300E3EC02 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		BA0F1C712620D7C500E3EC02 /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
+		BA0F1C792620E10800E3EC02 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		BA0F1C3A2620B6D600E3EC02 /* SwiftUIMemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA0F1C742620E01200E3EC02 /* DB */,
 				BA0F1C6B2620CB4800E3EC02 /* Shared */,
 				BA0F1C632620C09600E3EC02 /* Scene */,
 				BA0F1C5B2620BD3E00E3EC02 /* Extension */,
@@ -83,7 +86,6 @@
 				BA0F1C442620B6D700E3EC02 /* Assets.xcassets */,
 				BA0F1C492620B6D700E3EC02 /* LaunchScreen.storyboard */,
 				BA0F1C4C2620B6D700E3EC02 /* Info.plist */,
-				BA0F1C412620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld */,
 				BA0F1C462620B6D700E3EC02 /* Preview Content */,
 			);
 			path = SwiftUIMemo;
@@ -140,6 +142,15 @@
 				BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		BA0F1C742620E01200E3EC02 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				BA0F1C412620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld */,
+				BA0F1C792620E10800E3EC02 /* CoreDataManager.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				BA0F1C612620BF8200E3EC02 /* MemoCell.swift in Sources */,
 				BA0F1C662620C10500E3EC02 /* ComposeScene.swift in Sources */,
 				BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */,
+				BA0F1C7A2620E10800E3EC02 /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
