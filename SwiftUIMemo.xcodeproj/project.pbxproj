@@ -19,6 +19,7 @@
 		BA0F1C5D2620BD6100E3EC02 /* DateFormatter+Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C5C2620BD6100E3EC02 /* DateFormatter+Memo.swift */; };
 		BA0F1C612620BF8200E3EC02 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C602620BF8200E3EC02 /* MemoCell.swift */; };
 		BA0F1C662620C10500E3EC02 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C652620C10500E3EC02 /* ComposeScene.swift */; };
+		BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C682620C98300E3EC02 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BA0F1C5C2620BD6100E3EC02 /* DateFormatter+Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Memo.swift"; sourceTree = "<group>"; };
 		BA0F1C602620BF8200E3EC02 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		BA0F1C652620C10500E3EC02 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
+		BA0F1C682620C98300E3EC02 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				BA0F1C602620BF8200E3EC02 /* MemoCell.swift */,
+				BA0F1C682620C98300E3EC02 /* TextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				BA0F1C562620B91E00E3EC02 /* Memo.swift in Sources */,
 				BA0F1C612620BF8200E3EC02 /* MemoCell.swift in Sources */,
 				BA0F1C662620C10500E3EC02 /* ComposeScene.swift in Sources */,
+				BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
