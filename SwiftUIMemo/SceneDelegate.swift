@@ -26,6 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
         let contentView = MemoListScene().environment(\.managedObjectContext, context)
             .environmentObject(store)
+            .environmentObject(DateFormatter.memoDateFormatter)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
