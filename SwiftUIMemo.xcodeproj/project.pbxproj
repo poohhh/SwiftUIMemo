@@ -21,6 +21,7 @@
 		BA0F1C662620C10500E3EC02 /* ComposeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C652620C10500E3EC02 /* ComposeScene.swift */; };
 		BA0F1C692620C98300E3EC02 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C682620C98300E3EC02 /* TextView.swift */; };
 		BA0F1C6D2620CB6300E3EC02 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */; };
+		BA0F1C722620D7C500E3EC02 /* DetailScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0F1C712620D7C500E3EC02 /* DetailScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		BA0F1C652620C10500E3EC02 /* ComposeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeScene.swift; sourceTree = "<group>"; };
 		BA0F1C682620C98300E3EC02 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		BA0F1C6C2620CB6300E3EC02 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		BA0F1C712620D7C500E3EC02 /* DetailScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				BA0F1C5F2620BF6600E3EC02 /* View */,
 				BA0F1C3F2620B6D600E3EC02 /* MemoListScene.swift */,
 				BA0F1C652620C10500E3EC02 /* ComposeScene.swift */,
+				BA0F1C712620D7C500E3EC02 /* DetailScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				BA0F1C6D2620CB6300E3EC02 /* KeyboardObserver.swift in Sources */,
 				BA0F1C432620B6D600E3EC02 /* SwiftUIMemo.xcdatamodeld in Sources */,
 				BA0F1C5D2620BD6100E3EC02 /* DateFormatter+Memo.swift in Sources */,
+				BA0F1C722620D7C500E3EC02 /* DetailScene.swift in Sources */,
 				BA0F1C3E2620B6D600E3EC02 /* SceneDelegate.swift in Sources */,
 				BA0F1C402620B6D600E3EC02 /* MemoListScene.swift in Sources */,
 				BA0F1C562620B91E00E3EC02 /* Memo.swift in Sources */,
